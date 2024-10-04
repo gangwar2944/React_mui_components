@@ -31,6 +31,8 @@ export const sideBarData:SideBarData[]=[
     { "id": 25, "name": "tabs", "path": "/tabs" },
     { "id": 26, "name": "textFields", "path": "/textFields" },
     { "id": 27, "name": "tooltip", "path": "/tooltip" },
-    { "id": 28, "name": "typography", "path": "/typography" }
+    { "id": 28, "name": "typography", "path": "/typography" },
+    { "id": 29, "name": "dataGrid", "path": "/dataGrid" },
+    { "id": 30, "name": "datePickerComponent", "path": "/datePickerComponent" }
   ]
   

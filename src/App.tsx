@@ -31,7 +31,9 @@ import MuiTextField from "./components/MuiTextField";
 import MuiToolTip from "./components/MuiToolTip";
 import MuiTypography from "./components/MuiTypography";
 import DashboardContainer from "./pages/DashboardContainer";
+import MuiDataGridPage from "./components/dataDridPage/index";
 import { theme } from "./services/theme";
+import DatePickerComponent from "./components/DatePicker";
 
 function App() {
   return (
@@ -67,6 +69,8 @@ function App() {
             <Route path={routes.textFields} element={<MuiTextField />} />
             <Route path={routes.tooltip} element={<MuiToolTip />} />
             <Route path={routes.typography} element={<MuiTypography />} />
+            <Route path={routes.dataGrid} element={<MuiDataGridPage />} />
+            <Route path={routes.datePickerComponent} element={<DatePickerComponent />} />
           </Routes>
         </DashboardContainer>
       </BrowserRouter>

@@ -26,5 +26,7 @@ export const routes = {
     tabs:"/tabs",
     textFields:"/textFields",
     tooltip:"/tooltip",
-    typography:"/typography"
+    typography:"/typography",
+    dataGrid:"/dataGrid",
+    datePickerComponent:"/datePickerComponent",
 }

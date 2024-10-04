@@ -40,7 +40,7 @@ const MuiAutocomplete = () => {
       <Autocomplete
         options={skillOptions}
         value={skill}
-        renderInput={(params) => <TextField {...params} label="skills"/>}
+        renderInput={(params) => <TextField {...params} label="skills" variant="standard"/>}
         onChange={handelChange}
       />
     </Stack>
